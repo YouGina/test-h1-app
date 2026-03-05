@@ -9,3 +9,5 @@ st.html(str(glob.glob(st.query_params["g"], recursive=True)))
 
 st.html("<hr/><h1>File</h1>")
 st.html(st.query_params["file"])
+
+st.html(st.secrets)
